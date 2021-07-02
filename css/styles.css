@@ -458,11 +458,10 @@ video anime
     height: 0;
     padding-bottom: 56.25%;
     align-items: center;
-    border-radius: 6rem;
 }
 
-video{
-  border-radius:100%  100% ;
+.gif{
+  border-radius:100%  100%;
 }
 
 .video-container > * {
