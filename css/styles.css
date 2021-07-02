@@ -447,6 +447,31 @@ About
     align-self: center;
   }
 }
+
+/*
+==========
+video anime
+===========
+*/
+.video-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    align-items: center;
+    border-radius: 6rem;
+}
+
+video{
+  border-radius:100%  100% ;
+}
+
+.video-container > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
 /*
 =============== 
 Services
