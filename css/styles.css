@@ -26,7 +26,7 @@ Variables
   --clr-primary-9: hsl(189, 90%, 88%);
   --clr-primary-10: hsl(189, 100%, 96%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 93%, 11%);
+  --clr-grey-1: hsl(209, 82%, 13%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
@@ -959,12 +959,12 @@ textarea {
 }
 
 :-ms-input-placeholder {
-	color: hsl(187deg, 100%, 64%)
+	color: var(--clr-primary-1)
 }
 
 #form_button {
   background: none;
-  border: solid 2px hsl(187deg, 100%, 64%);
+  border: solid 2px var(--clr-primary-1);
   color: #020e1a;
   cursor: pointer;
   display: inline-block;
