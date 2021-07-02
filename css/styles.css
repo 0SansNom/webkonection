@@ -881,7 +881,7 @@ form {
 	width: 45%;
 }
 
-input[type='text'], [type='email'], select, textarea {
+input[type='text'], [type="tel"], [type='email'], select, textarea {
 	background: none;
   border: none;
 	border-bottom: solid 2px hsl(187deg, 100%, 64%);
