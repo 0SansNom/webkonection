@@ -453,11 +453,12 @@ About
 video anime
 ===========
 */
+
 .video-container {
     position: relative;
-    height: 0;
     padding-bottom: 56.25%;
     align-items: center;
+    margin: 95px;
 }
 
 .gif{
