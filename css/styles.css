@@ -1001,3 +1001,11 @@ textarea {
     font-size: 0.875em;
   }
 }
+
+@keyframes appartion {
+  100%{
+    opacity: 1;
+    display: none;
+  }
+  
+}
