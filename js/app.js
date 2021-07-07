@@ -27,3 +27,5 @@ sidebarTo.forEach(element => {
 });
 // set year
 date.innerHTML = new Date().getFullYear()
+
+
