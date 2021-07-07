@@ -455,8 +455,10 @@ video anime
 */
 
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
+  background-color: var(--clr-primary-10);
+  position: relative;
+  padding: 20%;
+   margin: 0;
 }
 
 .gif{
