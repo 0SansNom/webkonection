@@ -353,6 +353,25 @@ Hero
 ===============
 */
 /* underline in globals */
+.hero_title{
+  width: 13ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 .hero .underline {
   margin-bottom: 0.5rem;
   margin-left: 0;
