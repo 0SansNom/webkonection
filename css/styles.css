@@ -474,31 +474,6 @@ About
 }
 
 /*
-==========
-video anime
-===========
-*/
-
-.video-container {
-  display: none;
-  background-color: var(--clr-primary-10);
-  position: relative;
-  padding: 20%;
-   margin: 0;
-}
-
-.gif{
-  border-radius:100%  100%;
-}
-
-.video-container > * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-/*
 =============== 
 Services
 ===============
