@@ -418,6 +418,7 @@ Hero
     border-radius: var(--radius);
     /* place the image in front of ::before */
     position: relative;
+    width: auto;
   }
   /* hero photo outside  */
   .hero-img::before,
@@ -571,6 +572,7 @@ Projects
   transition: var(--transition);
   border-radius: var(--radius);
   height: 15rem;
+  width: auto;
   -o-object-fit: cover;
   object-fit: cover;
 }
