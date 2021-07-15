@@ -66,6 +66,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  cursor: url(../images/cursor.png), auto;
 }
 ul {
   list-style-type: none;
@@ -141,7 +142,7 @@ p {
   transition: var(--transition);
   font-size: 0.875rem;
   border: 2px solid transparent;
-  cursor: pointer;
+  cursor: url(../images/click.png), auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
@@ -216,10 +217,15 @@ Navbar
   border-color: transparent;
   color: var(--clr-primary-5);
   font-size: 2rem;
-  cursor: pointer;
+  cursor: url(../images/click.png), auto;
   /* show later */
   justify-self: right;
 }
+
+a, button{
+  cursor: url(../images/click.png), auto;
+}
+
 
 @media screen and (min-width: 768px) {
   .nav {
@@ -455,6 +461,7 @@ video anime
 */
 
 .video-container {
+  display: none;
   background-color: var(--clr-primary-10);
   position: relative;
   padding: 20%;
