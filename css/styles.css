@@ -222,6 +222,10 @@ Navbar
   justify-self: right;
 }
 
+.nav-logo{
+  width:10 px;
+}
+
 a, button{
   cursor: url(../images/click.png), auto;
 }
@@ -418,7 +422,7 @@ Hero
     border-radius: var(--radius);
     /* place the image in front of ::before */
     position: relative;
-    width: auto;
+    height: 400px;
   }
   /* hero photo outside  */
   .hero-img::before,
