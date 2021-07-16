@@ -395,7 +395,7 @@ Hero
 }
 
 .hero-info h4 {
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-1);
 }
 .hero-icons {
   justify-items: start;
