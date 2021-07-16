@@ -103,6 +103,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
+
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -740,7 +741,7 @@ Footer
 }
 .footer p {
   font-size: 1.25rem;
-  /* color: var(--clr-white); */
+  color: var(--clr-white);
 }
 
 /*
