@@ -26,7 +26,7 @@ Variables
   --clr-primary-9: hsl(189, 90%, 88%);
   --clr-primary-10: hsl(189, 100%, 96%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 82%, 13%);
+  --clr-grey-1: hsl(210, 94%, 6%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
@@ -103,7 +103,6 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
   h1 {
